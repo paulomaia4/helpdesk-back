@@ -30,9 +30,9 @@ public class DBService {
 	
 	public void instaciaDB() {
 	
-	Tecnico tec1 = new Tecnico(null, "Paulo Maia", "12345678910", "paulo@mail.com", "123");
-	Tecnico tec2 = new Tecnico(null, "Pedro Maia", "68564879753", "pepeo@mail.com", "123");
-	Tecnico tec3 = new Tecnico(null, "Steve Jobs", "91078945635", "steveo@mail.com", "123");
+	Tecnico tec1 = new Tecnico(null, "Paulo Maia", "123.456.789-10", "paulo@mail.com", "123");
+	Tecnico tec2 = new Tecnico(null, "Pedro Maia", "685.648.797-53", "pepeo@mail.com", "123");
+	Tecnico tec3 = new Tecnico(null, "Steve Jobs", "910.789.456-35", "steveo@mail.com", "123");
 	tec1.addPerfil(Perfil.ADMIN);
 	
 	Cliente cli1 = new Cliente(null, "Pedro Maia", "10987654321", "pedro@mail.com", "123");
